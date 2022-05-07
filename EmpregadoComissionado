@@ -31,11 +31,16 @@ public class EmpregadoComissionado {
 		this.percentualComissionado = percentualComissionado;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "EmpregadoComissionado [vlrTotalVendas=" + vlrTotalVendas + ", percentualComissionado="
-				+ percentualComissionado + ", getClass()=" + getClass() + ", toString()=" + super.toString() + "]";
+				+ percentualComissionado + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
 	}
-	
 
+	public void setSobrenome(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }
